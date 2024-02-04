@@ -1,12 +1,12 @@
 console.log("Starting background.JS")
-const apiKey = "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" ;
+const apiKey = "";
 const url = "https://api.openai.com/v1/chat/completions";
 
 async function query(data) {
 	const response = await fetch(
 		"https://api-inference.huggingface.co/models/sentence-transformers/all-MiniLM-L6-v2",
 		{
-			headers: { Authorization: "Bearer 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" },
+			headers: { Authorization: "Bearer " },
 			method: "POST",
 			body: JSON.stringify(data),
 		}
