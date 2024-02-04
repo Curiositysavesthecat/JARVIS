@@ -1,0 +1,19 @@
+{
+    "name" : "Jarvis",
+    "version" : "1.0",
+    "manifest_version" : 3,
+    "description" : "Jarvis, for your chrome. Explore commands that close, open and regroup your tabs without any hassle, making your browsing experience SEAMLESS.",
+    "action" :
+    {
+        "default_icon" : "icon.png",
+        "default_popup" :"index.html"
+    },
+    "permissions" : ["tabs", "activeTab", "history"],
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "background":{
+        "service_worker" : "background.js"
+      }
+}

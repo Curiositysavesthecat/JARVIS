@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "chrome": "^0.1.0",
+    "dotenv": "^16.4.1",
+    "http-server": "^14.1.1",
+    "openai": "^4.26.0"
+  },
+  "main": "tony.js",
+  "type" : "module",
+  "devDependencies": {
+    "webpack": "^5.90.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
