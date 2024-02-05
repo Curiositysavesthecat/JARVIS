@@ -17,3 +17,6 @@ Given a query/request/command, you can perform 7 types of tasks with Jarvis :
 4) Reopen tabs given their specific context try to be as concise and accurate as possible.
    For e.g., "Reopen entertainment" , " reopen funny videos ". This feature accesses the last tabs you visited under 6 hours of time and finds the most similar tabs to your query.
 5) Navigate on your current tab, in both directions and if you want specify the number of times you want to go back too. - "Can you go back twice", " Can you go forward 3 times?"
+6) If Jarvis feels you are little sad and need cheering up, it will open random websites on its own.
+7) Open tabs given the website name ( Only use it when you want to open multiple types of websites, this is quite useless otherwise."
+   
